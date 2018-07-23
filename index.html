@@ -37,7 +37,9 @@
     </div> <!-- banner end -->
     <div class="info container">
       <div class="main">
-        <img src="resources/images/information-main.jpg" alt="Learning">
+        <div class="main-img">
+          <img src="resources/images/information-main.jpg" alt="Learning">
+        </div>
         <h1>It doesn't hurt to keep practicing</h1>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
           commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
@@ -62,7 +64,7 @@
             <p><a href="#">Read more</a></p>
           </div>
         </div> <!-- item 2 end -->
-        <div class="item">
+        <div class="item highlight">
           <img src="resources/images/information-guest-lecture.jpg" alt="Guest">
           <div class="item-text">
             <h3>Our guest lecture</h3>
@@ -74,7 +76,7 @@
     </div> <!-- info end -->
     <div class="learning">
       <h1>Start learning</h1>
-      <div class="container">
+      <div class="row1">
         <div class="course">
           <img src="resources/images/course-software.jpg" alt="Software">
           <div class="course-text">
@@ -100,6 +102,8 @@
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div> <!-- course 3 end -->
+      </div>
+      <div class="row2">
         <div class="course">
           <img src="resources/images/course-data.jpg" alt="Data">
           <div class="course-text">
@@ -128,25 +132,28 @@
     </div> <!-- learning end -->
     <div class="thesis">
       <h1>Thesis exhibit</h1>
-      <div class="main">
-        <video src="resources/videos/thesis.mp4" controls>
+    <div class="exhibit container">
+      <div class="main exhib">
+        <div class="main-img">
+          <video src="resources/videos/thesis.mp4" controls>
           This video is not supported, sorry!
-        </video>
-        <h3>Reimagine urban</h3>
+          </video>
+        </div>
+        <h3 id="main">Reimagine urban</h3>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
           commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
           sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
           tristique ligula."</p>
       </div>
       <div class="side">
-        <div class="item">
+        <div class="item exhib highlight">
           <img src="resources/images/thesis-fisma.jpg" alt="Fisma">
           <div class="item-text">
             <h3>Fisma: Design and Prototype</h3>
             <p>Designer showcase of new prototype product</p>
           </div>
         </div> <!-- item 1 end -->
-        <div class="item">
+        <div class="item exhib">
           <img src="resources/images/thesis-now-and-then.jpg" alt="Now and Then">
           <div class="item-text">
             <h3>Now and then</h3>
@@ -154,12 +161,13 @@
           </div>
         </div> <!-- item 2 end -->
       </div>
+    </div>
     </div> <!-- thesis end -->
     <footer>
       <div class="copyright">
-        <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+        &copy; 2016 Colmar Academy. All rights reserved
       </div>
-      <div class="T_P">
+      <div class="nav tp">
         <ul>
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
