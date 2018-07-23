@@ -8,7 +8,7 @@ html {
 }
 
 /* header */
-.header {
+header {
   height: 64px;
   width: 100%;
   display: flex;
@@ -35,7 +35,7 @@ html {
   font-weight: bold;
 }
 
-.nav {
+nav {
   padding-right: 24px;
 }
 
@@ -47,7 +47,7 @@ li {
   padding-right: 16px;
 }
 
-.nav a {
+nav a {
   color: inherit;
   text-decoration: inherit;
 }
@@ -244,7 +244,7 @@ footer {
   .head {
     height: 32px;
   }
-  .header {
+  header {
     justify-content: space-around;
   }
 
