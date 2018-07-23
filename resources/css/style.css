@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
-  color: grey;
+  color: #373737;
+  font-family: "Open Sans", sans-serif;
 }
 .mobile {
   display: none;
@@ -27,6 +28,9 @@ html {
   padding-left: 24px;
 }
 
+.logo-text {
+  font-family: "Lato", sans-serif;
+}
 .logo-text span {
   font-weight: bold;
 }
@@ -55,7 +59,7 @@ li {
   top: 64px;
   display: flex;
   align-items: center;
-  background-color: darkgrey;
+  background-color: #999999;
 }
 
 .banner-img {
@@ -84,10 +88,11 @@ h2 {
 }
 
 .button {
-  line-height: 2;
-  background-color: grey;
+  line-height: 2.2;
+  background-color: #373737;
   color: white;
   text-align: center;
+  padding-top: 0;
 }
 
 
@@ -100,7 +105,7 @@ h2 {
 
 .main {
   width: 60%;
-  border: thin solid lightgrey;
+  border: thin solid #ABABAB;
   padding-bottom: 32px;
 }
 .main-img {
@@ -119,6 +124,7 @@ h2 {
 .main span {
   font-size: 0.8rem;
   color: black;
+  font-family: "Lato", sans-serif;
 }
 
 .side {
@@ -131,7 +137,7 @@ h2 {
 .item {
   display: flex;
   padding: 16px;
-  border: thin solid lightgrey;
+  border: thin solid #ABABAB;
   align-items: center;
 }
 .item img {
@@ -156,12 +162,12 @@ p {
 }
 
 .highlight {
-  background-color: darkgrey;
+  background-color: #999999;
 }
 
 /* learning & courses */
 .learning {
-  background-color: lightgrey;
+  background-color: #ABABAB;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -300,7 +306,7 @@ footer {
   }
   .course {
     max-width: 100%;
-    background-color: darkgrey;
+    background-color: #999999;
     margin-bottom: 8px;
   }
   .course-text {
